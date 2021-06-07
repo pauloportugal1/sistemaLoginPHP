@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Sistema de Login</title>
+</head>
+
+<body>
+
+    <div class="sl-page-wrapper">
+        <section class="sl-login-section">
+            <div class="sl-internal-box">
+                <h1>Entrar</h1>
+                <form action="php/logar.php" method="POST">
+                    <input type="email" name="email" placeholder="Usuário" class="sl-field">
+                    <input type="password" name="senha" placeholder="Senha" class="sl-field">
+                    <input type="submit" value="ACESSAR" class="sl-field" id="sl-submit">
+                </form>
+                <a href="registrar.html">
+                    <p>Ainda não é inscrito? <strong>Cadastre-se</strong></p>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

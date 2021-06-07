@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothinf: grayscale;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+p, label, a{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+h1, h2, h3, h4, h5,h6{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;  
+}
+
+:-ms-input-placeholder {  
+  color: #fff;  
+}
+
+.sl-page-wrapper{
+  display:flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/bg-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sl-field{
+  display: block;
+  background-color: rgba(255,255,255,0.01);
+  width: 100%;
+  line-height: 55px;
+  padding: 5px 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 30px;
+  border: 1px solid white;
+  font-size: 16pt;
+  outline: none;
+  
+}
+
+
+.sl-login-section{
+  display: table;
+  margin: auto 0;
+  position: relative;
+  bottom: 5%;
+}
+
+.sl-internal-box{
+  display: table;
+  width: 400px;
+  margin: auto;
+  
+}
+
+.sl-internal-box > h1{
+  text-align: center;
+}
+
+.sl-internal-box .sl-field:last-child{
+  margin-bottom: 20px;
+}
+
+.sl-internal-box > a{
+  text-align: center;
+  text-decoration: none;
+  
+}
+.sl-internal-box > a:hover{
+  text-decoration: underline;
+}
+
+#sl-submit{
+  background-color: #ff0066;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

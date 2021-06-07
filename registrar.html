@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Sistema de Login</title>
+</head>
+
+<body>
+
+    <div class="sl-page-wrapper">
+        <section class="sl-login-section">
+            <div class="sl-internal-box">
+                <h1>Cadastrar</h1>
+                <form action="php/cadastrar.php" method="POST">
+                    <input type="text" name="nome" placeholder="Nome completo" maxlength="50" class="sl-field">
+                    <input type="text" name="telefone" placeholder="Telefone" maxlength="30" class="sl-field">
+                    <input type="email" name="email" placeholder="Email" maxlength="30" class="sl-field">
+                    <input type="password" name="senha" placeholder="Senha" maxlength="15" class="sl-field">
+                    <input type="password" name="confSenha" placeholder="Confirmar Senha" maxlength="15"
+                        class="sl-field">
+                    <input type="submit" value="CADASTRAR" class="sl-field" id="sl-submit">
+                </form>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
